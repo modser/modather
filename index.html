@@ -6,14 +6,26 @@
     <title>My Work - Modser Alrady</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .hover-scale {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #4f46e5, #9333ea);
+        }
+    </style>
 </head>
 <body class="bg-gray-100 font-sans">
     <!-- Header Section -->
-    <header class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-12 text-center">
+    <header class="gradient-bg text-white py-20 text-center">
         <div class="container mx-auto px-6">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4">My Work</h1>
-            <p class="text-xl md:text-2xl">Expertise in Audio-Visual Systems, Surveillance Cameras, Networking, VoIP Systems, Digital Signage, and Lighting Systems.</p>
-            <p class="text-lg mt-4">Engineer Modser Alrady</p>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 animate-fade-in">My Work</h1>
+            <p class="text-xl md:text-2xl mb-6 animate-fade-in">Expertise in Audio-Visual Systems, Surveillance Cameras, Networking, VoIP Systems, Digital Signage, and Lighting Systems.</p>
+            <p class="text-lg animate-fade-in">Engineer Modser Alrady</p>
         </div>
     </header>
 
@@ -23,45 +35,45 @@
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Services</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Audio-Visual Systems -->
-                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center hover-scale">
                     <i class="fas fa-video text-blue-500 text-4xl mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">Audio-Visual Systems</h3>
-                    <p class="text-gray-700">Design and installation of high-quality audio-visual systems.</p>
+                    <p class="text-gray-700">Design and installation of high-quality audio-visual systems for theaters, conferences, and halls.</p>
                 </div>
 
                 <!-- Surveillance Cameras -->
-                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center hover-scale">
                     <i class="fas fa-camera text-blue-500 text-4xl mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">Surveillance Cameras</h3>
-                    <p class="text-gray-700">Installation of advanced surveillance systems.</p>
+                    <p class="text-gray-700">Installation of advanced surveillance systems with HD and 4K resolution.</p>
                 </div>
 
                 <!-- Networking -->
-                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center hover-scale">
                     <i class="fas fa-network-wired text-blue-500 text-4xl mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">Networking</h3>
-                    <p class="text-gray-700">Design and management of computer and communication networks.</p>
+                    <p class="text-gray-700">Design and management of secure and efficient computer and communication networks.</p>
                 </div>
 
                 <!-- VoIP Systems -->
-                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center hover-scale">
                     <i class="fas fa-phone-alt text-blue-500 text-4xl mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">VoIP Systems</h3>
-                    <p class="text-gray-700">Installation of VoIP communication systems for businesses.</p>
+                    <p class="text-gray-700">Installation of VoIP communication systems for businesses, including Yeastar P550 and S300.</p>
                 </div>
 
                 <!-- Digital Signage -->
-                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center hover-scale">
                     <i class="fas fa-ad text-blue-500 text-4xl mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">Digital Signage</h3>
-                    <p class="text-gray-700">Design and installation of interactive digital signage.</p>
+                    <p class="text-gray-700">Design and installation of interactive digital signage for indoor and outdoor use.</p>
                 </div>
 
                 <!-- Lighting Systems -->
-                <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <div class="bg-white rounded-lg shadow-lg p-6 text-center hover-scale">
                     <i class="fas fa-lightbulb text-blue-500 text-4xl mb-4"></i>
                     <h3 class="text-xl font-bold mb-2">Lighting Systems</h3>
-                    <p class="text-gray-700">Design and installation of lighting systems for theaters and buildings.</p>
+                    <p class="text-gray-700">Design and installation of advanced lighting systems for theaters, events, and buildings.</p>
                 </div>
             </div>
         </div>
@@ -71,14 +83,14 @@
     <section class="py-16 bg-gray-200">
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Contact Me</h2>
-            <div class="max-w-lg mx-auto bg-white rounded-lg shadow-lg p-8">
+            <div class="max-w-lg mx-auto bg-white rounded-lg shadow-lg p-8 hover-scale">
                 <p class="text-gray-700 text-center mb-6">Engineer Modser Alrady</p>
                 <p class="text-gray-700 text-center mb-6">You can reach me via:</p>
                 <div class="flex flex-col space-y-4">
-                    <a href="https://www.linkedin.com/in/modser-alrady-650518301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full text-center">
+                    <a href="https://www.linkedin.com/in/modser-alrady-650518301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full text-center transition duration-300">
                         <i class="fab fa-linkedin mr-2"></i> LinkedIn
                     </a>
-                    <a href="https://wa.me/966510277130" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full text-center">
+                    <a href="https://wa.me/966510277130" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full text-center transition duration-300">
                         <i class="fab fa-whatsapp mr-2"></i> WhatsApp
                     </a>
                 </div>
